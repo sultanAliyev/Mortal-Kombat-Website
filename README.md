@@ -1,1 +1,2 @@
-"# Mortal-Kombat-Website" 
+Mortal Kombat Website
+Tried to recreate mortalkombat.com 
