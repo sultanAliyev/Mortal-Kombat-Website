@@ -1,0 +1,825 @@
+body{
+    background: black;
+}
+
+
+/* хедер ксс */
+nav {
+	background-color: #0009;
+}
+.container img{
+	width: 250px;
+
+}
+.nav-item span {
+	color: orange;
+}
+.navbar-nav a {
+	font-family: poppins;
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-left: 30px;
+}
+.navbar-light .navbar-brand {
+	color: #fff;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+}
+.navbar-nav {
+	text-align: center;
+}
+.nav-link {
+	padding: .2rem 1rem;
+}
+.nav-link.active, .nav-link:focus {
+	color: #fff;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
+}
+.w-100 {
+	height: 100vh;
+}
+
+#hover1:hover {
+color: #F18D2E;
+}
+#hover1::after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	background: #F18D2E;
+	transition: width .3s;
+}
+#hover1:hover::after {
+	width: 100%;
+	transition: width .3s;
+}
+/*Navbar css end*/
+label {
+	font-size: 40px;
+display: none;
+ margin: 8px 0 0 20px;
+}
+.header {
+	display: none;
+}
+
+.dropdown-menu a{
+	margin-left: 0px;
+}
+
+#toggle{
+    color: white;
+  display: none;
+}
+@media  (max-width: 767px) {
+	label {
+		display: block;
+		font-size: 41px;
+		cursor: pointer;
+		position: relative;
+		position: relative;
+		right: 10px;
+	}
+
+    .header div a{
+        text-decoration: none;
+        color: white;
+    }
+
+   
+    
+    .header div a:hover{
+        color: orange;
+    }
+
+
+	.header {
+		display: block;
+		color: white;
+		padding-top: 90px;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 20px;
+    position: relative;
+    left:120px;
+    bottom: 50px;
+	}
+
+
+	.header div{
+  border-top: 1px solid grey;
+  padding: 10px 0;
+
+  display: block;
+  cursor: pointer;
+  margin-right: 0;
+}
+
+
+.header div span {
+	color: orange;
+}
+
+
+#toggle:checked + .header{
+  display: none;
+}
+
+
+.header div:hover{
+	color: orange;
+}
+}
+/*navbar mobile adapt end*/
+
+
+.words-title{
+    margin-top: 100px;
+	position: relative;
+    padding: 30px 0;
+    background: linear-gradient(
+90deg
+,#7a3d01 10%,#d89704 48%,#d89704 52%,#7a3d01 90%);
+
+border-bottom:4px solid #C1A768 ;
+}
+
+.words-title h3{
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 0.1rem;
+	font-size: 3rem;
+}
+
+.first-section{
+    background-image: url("https://cdn-prod.mortalkombat.com/aftermath/game-info/game-info-top-bg-m.jpg");
+    padding-top: 130px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    margin-bottom: -30px;
+    padding-bottom: 60px;
+}
+
+.first-section .elements{
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 40px 15px 10px;
+}
+
+.first-section .elements .logo{
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    height: 230px;
+    margin-bottom: 48px;
+}
+
+
+.first-section .elements .video .play{
+    z-index: 1;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100px;
+    height: 100px;
+    color: white;
+    /* color:#fda90f; */
+}
+
+.first-section .elements .video{
+    margin-top: 50px;
+    margin-bottom: 50px;
+ background-image: url("https://cdn-prod.mortalkombat.com/aftermath/game-info/top-video-poster.jpg");
+ background-repeat: no-repeat;
+ background-position: top;
+ background-size: cover;
+ margin-right: auto;
+ margin-left: auto;
+ width: 720px;
+ height: 400px;
+ max-height: 400px;
+ padding-bottom: 120px;
+ padding-top: 120px;
+ border: none;
+}
+
+.first-section .elements .video:hover .play{
+    
+    color:#fda90f;
+    animation-name: bigger;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+	animation-fill-mode:forwards ;
+}
+
+@keyframes bigger{
+    0%{
+        width: 100px;
+        height: 100px;
+    }
+    100%{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+.first-section .elements .video:hover{
+    border: 1px solid #fda90f;
+}
+
+.words-between{
+    text-align: center;
+    color:#fda90f;;
+    font-family: Georgia,serif;
+    text-transform: uppercase;
+    line-height: 1.1;
+}
+
+.line-bottom{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+
+.line-bottom{
+transform: scaleY(-1);
+}
+
+.first-section .elements p{
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+}
+
+@media  (max-width: 767px) {
+   .words-title h3{
+       font-size: 24px;
+   }
+
+    p{
+        font-size: 15px;
+        width: 680px;
+    }
+    .first-section .elements .logo{
+      margin-left: 40%;
+      height: 130px;
+      width: auto;
+    }
+
+
+    .first-section .elements{
+       margin-left: 30px;
+    }
+
+    .words-between{
+        margin-left: 50px;
+        width: 500px;
+    }
+
+    .first-section .elements .video .play{
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 60px;
+        height: 60px;
+        color: white;
+        /* color:#fda90f; */
+    }
+    
+    @keyframes bigger{
+        0%{
+            width: 60px;
+            height: 60px;
+        }
+        100%{
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+
+    .first-section .elements .video{
+        margin-top: 50px;
+        margin-bottom: 50px;
+     margin-right: auto;
+     margin-left: auto;
+     width: 620px;
+     height: 380px;
+     max-height: 380px;
+     padding-bottom: 120px;
+     padding-top: 120px;
+     border: none;
+    }
+
+}
+
+
+/* это отвечает за стрелками между секшнами */
+.linear-section{
+    display: block;
+	bottom: 20px;
+    position: relative;
+    height: 0px;
+    z-index: 1;
+}
+
+/* завершение ксс */
+
+
+/* второй секшон */
+.second-section{
+    background-image:url(https://cdn-prod.mortalkombat.com/aftermath/game-info/game-info-fatalities-bg.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    padding-top: 50%;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 20px;
+}
+
+
+
+.second-section p{
+ color: white;
+ text-align: center;
+}
+
+.second-section .line-bottom{
+   margin-left: 80px;
+}
+
+/* мобильная адаптация */
+@media  (max-width: 767px) {
+    .second-section .line-bottom{
+        display: none;
+     }
+
+     h2{
+         font-size: 18px;
+     }
+
+     p{
+         font-size: smaller;
+     }
+  
+      .second-section{
+          padding-left: 5%;
+      }
+  
+  }
+
+  
+  /* третий секшон */
+  .third-section{
+    background-image:url(https://cdn-prod.mortalkombat.com/aftermath/game-info/game-info-kano-bg.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    padding-top: 50%;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 20px;
+}
+
+
+
+.third-section p{
+ color: white;
+ text-align: center;
+}
+
+.third-section .line-bottom{
+   margin-left: 80px;
+}
+
+/* мобильная адаптация */
+@media  (max-width: 767px) {
+    .third-section .line-bottom{
+        display: none;
+     }
+
+     h2{
+         font-size: 18px;
+     }
+
+     p{
+         font-size: smaller;
+     }
+  
+      .third-section{
+          padding-left: 5%;
+      }
+  
+  }
+
+  /* 4 section  */
+  .forth-section{
+    background-image:url(https://cdn-prod.mortalkombat.com/aftermath/game-info/game-info-new-stages-bg.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    padding-top: 50%;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 20px;
+}
+
+
+
+.forth-section p{
+ color: white;
+ text-align: center;
+}
+
+.forth-section .line-bottom{
+   margin-left: 80px;
+}
+
+/* мобильная адаптация */
+@media  (max-width: 767px) {
+    .forth-section .line-bottom{
+        display: none;
+     }
+
+     h2{
+         font-size: 18px;
+     }
+
+     p{
+         font-size: smaller;
+     }
+  
+      .forth-section{
+          padding-left: 5%;
+      }
+  
+  }
+
+  /* 3 секшн ксс */
+.words-4{
+	position: relative;
+    padding: 30px 0;
+    background: linear-gradient(
+90deg
+,#7a3d01 10%,#d89704 48%,#d89704 52%,#7a3d01 90%);
+
+border-bottom:4px solid #C1A768 ;
+}
+
+.words-4 h3{
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 0.1rem;
+	font-size: 3rem;
+}
+
+/* карточки */
+  
+.cards{
+	background-image: url(https://cdn-prod.mortalkombat.com/aftermath/global/compare-extended-bg-m.jpg);
+	background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.cards .elements{
+	margin-left: 300px;
+	padding: 90px 30px 90px 30px;
+	display: flex;
+	flex-direction: row;
+}
+
+.cards .elements .card{
+	color: white;
+	padding: 15px 15px 15px 15px;
+	background: rgba(0,0,0,.4);
+	margin-right: 20px; 
+	border: 2px solid #C1A768;
+	min-width: 250px;
+	width: 250px;
+	height: 525px;
+	display: flex;
+	flex-direction: column;
+}
+
+.cards .elements .card #photoes{
+	position: relative;
+	bottom: 50px;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.cards .elements .card #photoes:hover{
+	animation-name: move;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+	animation-fill-mode:forwards ;
+}
+
+/* анимация */
+
+@keyframes move{
+	0%{
+		bottom: 50px;
+	}
+	100%{
+		box-shadow:0 0 10px #FEAD15;
+		bottom: 80px;
+	}
+}
+
+@media (max-width: 767px){
+	.cards .elements{
+		margin-left: 50px;
+		overflow-y: auto;
+	}
+}
+
+
+.cards .elements .card #liner{
+	margin-bottom: 20px;
+}
+
+.cards .elements .card span{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.cards .elements .card .notes {
+	width: 80%;
+}
+
+.cards .elements .card .notes p{
+  padding-left: 10px;
+}
+
+.cards .elements .card button{
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10%;
+	height: 35px;
+	border: none;
+	color: white;
+background-color: #FEAD15;
+width: max-content;
+}
+
+.cards .elements .card button:focus{
+	outline: none;
+}
+
+/* футре ксс часть */
+.footer {
+	background-color: black;
+	height: 480px;
+}
+.footer img {
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+.row1 img {
+margin-top: 50px;
+}
+.row3 img {
+	position: relative;
+	left:1200px;
+	bottom: 120px;
+}
+.footer p {
+	font-size: 10px;
+	color: white;
+	margin-right: 500px;
+	margin-left: 300px;
+	text-align: left;
+}
+.footer .links a {
+	display: inline;
+    font-size: .625rem;
+    text-transform: uppercase;
+    margin: 0 10px;
+    color: grey;
+    opacity: .7;
+    white-space: nowrap;
+    color: grey;
+    text-decoration: none;
+    background-color: transparent;
+    position: relative;
+    left:400px;
+    bottom: 80px;
+}
+.footer .links a:hover {
+	color: white;
+}
+/*Footer css end*/
+
+/*Footer mobile adaptation start*/
+@media  (max-width: 767px) {
+	body {
+		width: auto;
+	}
+	.footer {
+background-color: black;
+	height: 800px;
+	}
+	.footer p {
+		margin-left: 10px;
+		margin-right: 10px;
+		text-align: center;
+	}
+	.footer .row3 img {
+		position: relative;
+		left:300px;
+		top: 10px;
+	}
+
+	.footer .links {
+		display: inline-block;
+		position: relative;
+		right: 400px;
+		top: 120px;
+		text-align: center;
+	}
+}
+/*Footer mobile adaptation end*/
+
+@media  (max-width: 767px) {
+	
+video {
+	display: none;
+}
+.slide1  {
+	background-size: contain;
+	width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
+.scorpion {
+	display: none;
+}
+#first1{
+	margin: 0;
+}
+}
+
+/*Section 4 css start*/
+.section4  {
+	background-color: black;
+}
+.section4 h3 {
+	color: white;
+}
+.text {
+	display: flex;
+    justify-content: center;
+}
+.text img {
+	position: relative;
+	top: 42px;
+}
+.text h3 {
+	margin-top: 37px;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+ .flip1 {
+	-webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.cont {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	flex-direction: row;
+}
+.cont img {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.w3-row-padding{
+	display: flex;
+	flex-direction: row;
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  
+}
+.image2 {
+  position: absolute;
+  top: 8px;
+  left: 15px;
+  
+}
+.parent2 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image3 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image4 {
+  position: absolute;
+  top: 30px;
+  left: 90px;
+}
+.parent3 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image5 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image6 {
+  position: absolute;
+  top: 8px;
+  left: 80px;
+}
+.word1 {
+	color: white;
+	margin-left: 150px;
+	margin-top: 20px;
+}
+.word2 {
+	color: white;
+	margin-left: 180px;
+	margin-top: 20px;
+}
+.word3 {
+	color: white;
+	margin-left: 150px;
+	margin-top: 20px;
+}
+
+h5:hover {
+color: rgb(252, 186, 3);
+}
+/*Section 4 css end*/
+
+
+/*Section 4 mobile adaptation start*/
+@media  (max-width: 767px) {
+    h2{
+        font-size: 18px;
+    }
+
+    .line-bottom , .line-top{
+        display: none;
+    }
+
+	.w3-row-padding{
+	display: flex;
+	flex-direction: column;
+}
+	.word2 {
+		margin-left: 200px;
+	}
+	.word3 {
+		margin-left: 170px;
+	}
+}
+/*Section 4 mobile adaptation end*/
+
+

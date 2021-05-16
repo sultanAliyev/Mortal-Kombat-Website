@@ -1,0 +1,1167 @@
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	bottom: 220px;
+}
+
+.carousel-caption img {
+	margin-left: 580px;
+	margin-bottom: -10px;
+}
+
+.carousel-caption h5 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+	font-family: merienda;
+}
+.carousel-caption p {
+	width: 60%;
+	font-size: 18px;
+	line-height: 1.9;
+	font-family: poppins;
+	display: inline;
+
+
+}
+
+
+/* это отвечает за стрелками между секшнами */
+.linear-section{
+    display: block;
+	bottom: 20px;
+    position: relative;
+    height: 0px;
+    z-index: 1;
+}
+
+/* завершение ксс */
+
+ #first1 {
+	position: relative;
+	left:250px;
+}
+
+#second2{
+	position: relative;
+	left:250px;
+}
+#third3{
+	position: relative;
+	left:250px;
+}
+
+.carousel-caption a {
+	text-transform: uppercase;
+	background: black;
+	padding: 10px 30px;
+	display: inline-block;
+	color: #fff;
+	margin-top: 0px;
+}
+
+/*Navbar css start*/
+nav {
+	background-color: #0009;
+}
+.container img{
+	width: 250px;
+
+}
+.nav-item span {
+	color: orange;
+}
+.navbar-nav a {
+	font-family: poppins;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-left: 30px;
+}
+
+
+.navbar-light .navbar-brand {
+	color: #fff;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+}
+.navbar-nav {
+	text-align: center;
+}
+.nav-link {
+	padding: .2rem 1rem;
+}
+.nav-link.active, .nav-link:focus {
+	color: #fff;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
+}
+.w-100 {
+	height: 100vh;
+}
+
+#hover1:hover {
+color: #F18D2E;
+}
+#hover1::after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	background: #F18D2E;
+	transition: width .3s;
+}
+#hover1:hover::after {
+	width: 100%;
+	transition: width .3s;
+}
+
+/* кнопка которая отвечает за модал окно */
+.carousel-caption .btn{
+	background: none;
+	border: none;
+}
+
+.carousel-caption .btn:focus{
+  outline: none;
+  border: none;
+  background: none;
+}
+
+/* конец ксс */
+
+/* модальное окно */
+.modal-content{
+	
+}
+
+.modal-header .btn-close{
+	background: none;
+	border: none;
+}
+
+.modal-body{
+   display: flex;
+   flex-direction: column;
+}
+
+.modal-body .inputs{
+	justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+}
+
+.modal-body .years{
+	display: flex;
+	flex-direction: row;
+}
+
+.modal-body .years h6{
+	width: 50%;
+}
+
+.modal-body input{
+	width: 25%;
+}
+
+.modal-content button{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FDA90F;
+}
+
+.modal-content button:hover{
+	background-color: #FDA90F;
+}
+
+.modal-content button:focus{
+	outline: none;
+	background-color: #FDA90F;
+}
+/* конец модального  */
+
+
+#mid-page{
+    background-image:url("photoes/mid-bg.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    padding: 140px;
+    background-size: cover;
+    position: relative;
+}
+
+
+#mid-page .titles{
+	margin-left: auto;
+	margin-right: auto;
+  text-align: center;
+  width: 60%;
+}
+
+#mid-page .titles h1{
+    font-family: Roboto Condensed,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2rem;
+    line-height: 1.1;
+    color: #fda90f;
+}
+
+#mid-page .titles p{
+    font-size: 1.325rem;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+#mid-page .info-boxes{
+	padding: 170px 30px 0;
+	max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.info-boxes .cont1{
+	margin-bottom: 250px;
+    width: 1040px;
+	border-color: rgba(239,235,222,.6);
+}
+
+.info-boxes .cont1 .outer{
+	border: 2px solid #645a56;
+    background: rgba(0,0,0,.4);
+    position: relative;
+}
+
+.info-boxes .cont1 .outer .inner{
+	display: flex;
+	border-color: #c1a768;
+	border: 2px solid #73644b;
+    position: relative;
+}
+
+.info-boxes .cont1 .metta{
+	padding: 64px 18px 52px 38px;
+    width: 50%;
+}
+
+.info-boxes .cont1 .metta h2{
+	font-family: Roboto Condensed,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.1;
+	color: #fda90f;
+    margin-bottom: 0;
+}
+
+.info-boxes .cont1 .metta p{
+	font-size: 1.275rem;
+    color: #d7d7d7;
+    line-height: 1.1;
+    margin-bottom: 0;
+    text-shadow: 0 0 6px #000;
+    padding-right: 100px;
+}
+
+.info-boxes .cont1 .metta img{
+	margin: 12px 0;
+	width: 190px;
+    height: auto;
+}
+
+.info-boxes .cont1 .images{
+	position: relative;
+	width: 40%;
+    right: 50px;
+    z-index: 1;
+	display: flex;
+	flex-direction: row;
+}
+
+.info-boxes .cont1 .images .first{
+    width: 350px;
+    height: 400px;
+}
+
+.info-boxes .cont1 .images .second{
+	position: relative;
+	right: 5px;
+	top:22px;
+    width: 250px;
+    height: 376px;
+}
+
+
+/* второй карточка */
+
+
+.info-boxes .cont2{
+	margin-left: 15%;
+	margin-bottom: 250px;
+    width: 1040px;
+	border-color: rgba(239,235,222,.6);
+}
+
+.info-boxes .cont2 .outer{
+	border: 2px solid #645a56;
+    background: rgba(0,0,0,.4);
+    position: relative;
+}
+
+.info-boxes .cont2 .outer .inner{
+	display: flex;
+	border-color: #c1a768;
+	border: 2px solid #73644b;
+    position: relative;
+}
+
+.info-boxes .cont2 .metta{
+	padding: 64px 18px 52px 38px;
+    width: 50%;
+	margin-left: 20%;
+}
+
+.info-boxes .cont2 .metta h2{
+	font-family: Roboto Condensed,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.1;
+	color: #fda90f;
+    margin-bottom: 0;
+}
+
+.info-boxes .cont2 .metta p{
+	font-size: 1.275rem;
+	width: 100%;
+    color: #d7d7d7;
+    line-height: 1.1;
+    margin-bottom: 0;
+    text-shadow: 0 0 6px #000;
+    padding-right: 100px;
+}
+
+.info-boxes .cont2 .metta img{
+	margin: 12px 0;
+	width: 190px;
+    height: auto;
+}
+
+.info-boxes .cont2 .images{
+	position: relative;
+	right: 70px;
+	width: 40%;
+    z-index: 1;
+}
+
+.info-boxes .cont2 .images .first{
+	
+	margin-top: 50px;
+	width: 682px;
+}
+
+
+/* третия карточка */
+
+
+.info-boxes .cont3{
+	margin-bottom: 250px;
+    width: 1040px;
+	
+	border-color: rgba(239,235,222,.6);
+}
+
+
+.info-boxes .cont3 .outer{
+	border: 2px solid #645a56;
+    background: rgba(0,0,0,.4);
+    position: relative;
+	height: 355px;
+}
+
+
+.info-boxes .cont3 .outer .inner{
+	display: flex;
+	border-color: #c1a768;
+	border: 2px solid #73644b;
+    position: relative;
+	height: 355px;
+}
+
+
+.info-boxes .cont3 .metta{
+	padding: 64px 18px 0px 38px;
+    width: 60%;
+	margin-bottom: 0;
+	height: 50%;
+}
+
+
+.info-boxes .cont3 .metta h2{
+	font-family: Roboto Condensed,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.1;
+	color: #fda90f;
+    margin-bottom: 0;
+}
+
+
+.info-boxes .cont3 .metta p{
+	font-size: 1.275rem;
+	width: 100%;
+    color: #d7d7d7;
+    line-height: 1.1;
+    margin-bottom: 0;
+    text-shadow: 0 0 6px #000;
+    padding-right: 100px;
+}
+
+
+.info-boxes .cont3 .metta img{
+	margin: 12px 0;
+	width: 190px;
+    height: auto;
+}
+
+
+.info-boxes .cont3 .images{
+	position: relative;
+	width: 40%;
+	right: 320px;
+	bottom: 100px;
+    z-index: 1;
+}
+
+
+.info-boxes .cont3 .images .first{
+	width: 950px;
+    height: 446px;
+}
+
+/* четвертый слайд */
+
+.info-boxes .cont4{
+	margin-left: 15%;
+	margin-bottom: 250px;
+    width: 1040px;
+	border-color: rgba(239,235,222,.6);
+}
+
+.info-boxes .cont4 .outer{
+	border: 2px solid #645a56;
+    background: rgba(0,0,0,.4);
+    position: relative;
+	height: 425px;
+}
+
+.info-boxes .cont4 .outer .inner{
+	display: flex;
+	border-color: #c1a768;
+	border: 2px solid #73644b;
+    position: relative;
+	height: 425px;
+}
+
+.info-boxes .cont4 .metta{
+	padding: 120px 18px 52px 38px;
+    width: 70%;
+	margin-left: 20%;
+}
+
+.info-boxes .cont4 .metta h2{
+	font-family: Roboto Condensed,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.1;
+	color: #fda90f;
+    margin-bottom: 0;
+}
+
+.info-boxes .cont4 .metta p{
+	font-size: 1.275rem;
+	width: 100%;
+    color: #d7d7d7;
+    line-height: 1.1;
+    margin-bottom: 0;
+    text-shadow: 0 0 6px #000;
+    padding-right: 100px;
+}
+
+.info-boxes .cont4 .metta img{
+	margin: 12px 0;
+	width: 190px;
+    height: auto;
+}
+
+
+.info-boxes .cont4 .images{
+	position: relative;
+	left: 30px;
+	bottom:80px;
+	width: 20%;
+    z-index: 1;
+}
+
+
+.info-boxes .cont4 .images .first{
+	width: 900px;
+}
+/* здесь заканчивается второй секшн */
+
+/* теперь его мобайл адаптешн */
+@media  (max-width: 767px) {
+    #mid-page{
+		padding: 30px;
+	}
+
+	#mid-page .titles{
+	    width: 100%;
+	}
+
+	#mid-page .info-boxes{
+		padding: 120px 5px 0;
+		margin: 0 auto;
+	}
+	
+	#mid-page .titles h1{
+		font-size: 2rem;
+		line-height: 1.1;
+	}
+
+	#mid-page .titles p{
+		font-size: 1.325rem;
+		line-height: 1.2;
+	}
+	
+	/* первый слайд */
+	.info-boxes .cont1{
+		margin-bottom: 120px;
+		width: 100%;
+	}
+
+	.info-boxes .cont1 .metta{
+		padding: 20px;
+		width: 100%;
+	}
+	
+	.info-boxes .cont1 .metta h2{
+		font-size: x-large;
+	}
+	
+	.info-boxes .cont1 .metta p{
+		font-size: smaller;
+		line-height: 1.1;
+		margin-bottom: 0;
+		padding-right: 100px;
+	}
+	
+	.info-boxes .cont1 .metta img{
+		margin: 12px 0;
+		width: 190px;
+		height: auto;
+	}
+	
+	.info-boxes .cont1 .images{
+		position: relative;
+		width: 40%;
+		right: 50px;
+	}
+	
+	.info-boxes .cont1 .images .first{
+		display: none;
+	}
+	
+	.info-boxes .cont1 .images .second{
+		position: relative;
+		right: 5px;
+		top:0px;
+		width: 150px;
+		height: 216px;
+	}
+	
+	
+	/* второй карточка */
+	
+	.info-boxes .cont2{
+		margin-left: 0;
+		margin-bottom: 120px;
+		width: 100%;
+	}
+
+	.info-boxes .cont2 .metta{
+		padding: 20px;
+		width: 100%;
+		margin-left: 20%;
+	}
+	
+	.info-boxes .cont2 .metta h2{
+        font-size: x-large;
+	}
+	
+	.info-boxes .cont2 .metta p{
+		font-size: smaller;
+		line-height: 1.1;
+		margin-bottom: 0;
+		padding-right: 100px;
+	}
+	
+	.info-boxes .cont2 .metta img{
+		margin: 12px 0;
+		width: 190px;
+		height: auto;
+	}
+	
+	.info-boxes .cont2 .images{
+		position: relative;
+		right: 70px;
+		width: 20%;
+		z-index: 1;
+	}
+	
+	.info-boxes .cont2 .images .first{
+		position: relative;
+		left: 50px;
+		margin-top: 50px;
+		width: 280px;
+	}
+
+	/* теперь третий слайд */
+	.info-boxes .cont3{
+		margin-bottom: 120px;
+		width: 100%;
+	}
+	
+	
+	.info-boxes .cont3 .outer{
+		height: max-content;
+	}
+	
+	
+	.info-boxes .cont3 .outer .inner{
+		height: max-content;
+	}
+	
+	
+	.info-boxes .cont3 .metta{
+		z-index: 10;
+		padding: 20px;
+		width: 100%;
+		margin-bottom: 0;
+		height: 50%;
+	}
+	
+	
+	.info-boxes .cont3 .metta h2{
+		font-size: x-large;
+	}
+	
+	
+	.info-boxes .cont3 .metta p{
+		
+		font-size: smaller;
+	}
+	
+	
+	.info-boxes .cont3 .metta img{
+		margin: 12px 0;
+		width: 190px;
+		height: auto;
+	}
+	
+	
+	.info-boxes .cont3 .images{
+		position: relative;
+		width: 20%;
+		right: 150px;
+		bottom: 0px;
+	}
+	
+	
+	.info-boxes .cont3 .images .first{
+		width: 260px;
+		height: auto;
+	}
+
+	/* 4 слайд */
+
+	.info-boxes .cont4{
+		margin-left: 0;
+		margin-bottom: 250px;
+		width: 100%;
+		border-color: rgba(239,235,222,.6);
+	}
+	
+	.info-boxes .cont4 .outer{
+		height: max-content;
+	}
+	
+	.info-boxes .cont4 .outer .inner{
+		height: max-content;
+	}
+	
+	.info-boxes .cont4 .metta{
+		position: absolute;
+		z-index: 10;
+		padding: 20px;
+		width: 100%;
+		margin-left: 15%;
+	}
+	
+	.info-boxes .cont4 .metta h2{
+	  font-size: x-large;
+
+	}
+	
+	.info-boxes .cont4 .metta p{
+		font-size:smaller;
+	}
+	
+	.info-boxes .cont4 .metta img{
+		margin: 12px 0;
+		width: 190px;
+		height: auto;
+	}
+	
+	
+	.info-boxes .cont4 .images{
+		position: relative;
+		left: -10px;
+		bottom:80px;
+		width: 20%;
+		z-index: 1;
+	}
+	
+	.info-boxes .cont4 .images .first{
+		position: relative;
+		top: 80px;
+		width: 430px;
+	}
+}
+
+/* закончился */
+
+/* 3 секшн ксс */
+.words-4{
+	position: relative;
+    padding: 30px 0;
+    background: linear-gradient(
+90deg
+,#7a3d01 10%,#d89704 48%,#d89704 52%,#7a3d01 90%);
+
+border-bottom:4px solid #C1A768 ;
+}
+
+.words-4 h3{
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 0.1rem;
+	font-size: 3rem;
+}
+
+/* карточки */
+  
+.cards{
+	background-image: url(https://cdn-prod.mortalkombat.com/aftermath/global/compare-extended-bg-m.jpg);
+	background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.cards .elements{
+	margin-left: 300px;
+	padding: 90px 30px 90px 30px;
+	display: flex;
+	flex-direction: row;
+}
+
+.cards .elements .card{
+	color: white;
+	padding: 15px 15px 15px 15px;
+	background: rgba(0,0,0,.4);
+	margin-right: 20px; 
+	border: 2px solid #C1A768;
+	min-width: 250px;
+	width: 250px;
+	height: 525px;
+	display: flex;
+	flex-direction: column;
+}
+
+.cards .elements .card #photoes{
+	position: relative;
+	bottom: 50px;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.cards .elements .card #photoes:hover{
+	animation-name: move;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+	animation-fill-mode:forwards;
+}
+
+/* анимация */
+
+@keyframes move{
+	0%{
+		bottom: 50px;
+	}
+	100%{
+		box-shadow:0 0 10px #FEAD15;
+		bottom: 80px;
+	}
+}
+
+@media (max-width: 767px){
+	.cards .elements{
+		margin-left: 50px;
+		overflow-y: auto;
+	}
+}
+
+
+.cards .elements .card #liner{
+	margin-bottom: 20px;
+}
+
+.cards .elements .card span{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.cards .elements .card .notes {
+	width: 80%;
+}
+
+.cards .elements .card .notes p{
+  padding-left: 10px;
+}
+
+.cards .elements .card button{
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10%;
+	height: 35px;
+	border: none;
+	color: white;
+background-color: #FEAD15;
+width: max-content;
+}
+
+.cards .elements .card button:focus{
+	outline: none;
+}
+
+/* футре ксс часть */
+.footer {
+	background-color: black;
+	height: 480px;
+}
+.footer img {
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+.row1 img {
+margin-top: 50px;
+}
+.row3 img {
+	position: relative;
+	left:1200px;
+	bottom: 120px;
+}
+.footer p {
+	font-size: 10px;
+	color: white;
+	margin-right: 500px;
+	margin-left: 300px;
+	text-align: left;
+}
+.footer .links a {
+	display: inline;
+    font-size: .625rem;
+    text-transform: uppercase;
+    margin: 0 10px;
+    color: grey;
+    opacity: .7;
+    white-space: nowrap;
+    color: grey;
+    text-decoration: none;
+    background-color: transparent;
+    position: relative;
+    left:400px;
+    bottom: 80px;
+}
+.footer .links a:hover {
+	color: white;
+}
+/*Footer css end*/
+
+/*Footer mobile adaptation start*/
+@media  (max-width: 767px) {
+	body {
+		width: auto;
+	}
+	.footer {
+background-color: black;
+	height: 800px;
+	}
+	.footer p {
+		margin-left: 10px;
+		margin-right: 10px;
+		text-align: center;
+	}
+	.footer .row3 img {
+		position: relative;
+		left:300px;
+		top: 10px;
+	}
+
+	.footer .links {
+		display: inline-block;
+		position: relative;
+		right: 400px;
+		top: 120px;
+		text-align: center;
+	}
+}
+/*Footer mobile adaptation end*/
+
+@media  (max-width: 767px) {
+	
+video {
+	display: none;
+}
+.slide1  {
+	background-size: contain;
+	width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
+.scorpion {
+	display: none;
+}
+#first1{
+	margin: 0;
+}
+}
+
+/*Section 4 css start*/
+.section4  {
+	background-color: black;
+}
+.section4 h3 {
+	color: white;
+}
+.text {
+	display: flex;
+    justify-content: center;
+}
+.text img {
+	position: relative;
+	top: 42px;
+}
+.text h3 {
+	margin-top: 37px;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+ .flip1 {
+	-webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.cont {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	flex-direction: row;
+}
+.cont img {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.w3-row-padding{
+	display: flex;
+	flex-direction: row;
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  
+}
+.image2 {
+  position: absolute;
+  top: 8px;
+  left: 15px;
+  
+}
+.parent2 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image3 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image4 {
+  position: absolute;
+  top: 30px;
+  left: 90px;
+}
+.parent3 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image5 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image6 {
+  position: absolute;
+  top: 8px;
+  left: 80px;
+}
+.word1 {
+	color: white;
+	margin-left: 150px;
+	margin-top: 20px;
+}
+.word2 {
+	color: white;
+	margin-left: 180px;
+	margin-top: 20px;
+}
+.word3 {
+	color: white;
+	margin-left: 150px;
+	margin-top: 20px;
+}
+
+h5:hover {
+color: rgb(252, 186, 3);
+}
+/*Section 4 css end*/
+
+
+/*Section 4 mobile adaptation start*/
+@media  (max-width: 767px) {
+	.w3-row-padding{
+	display: flex;
+	flex-direction: column;
+}
+	.word2 {
+		margin-left: 200px;
+	}
+	.word3 {
+		margin-left: 170px;
+	}
+}
+/*Section 4 mobile adaptation end*/
+
+/*navbar mobile adapt start*/
+
+
+label {
+	font-size: 40px;
+display: none;
+ margin: 8px 0 0 20px;
+}
+.header {
+	display: none;
+}
+
+.dropdown-menu a{
+	margin-left: 0px;
+}
+#toggle{
+  display: none;
+}
+@media  (max-width: 767px) {
+	label {
+		display: block;
+		font-size: 41px;
+		cursor: pointer;
+		position: relative;
+		position: relative;
+		right: 10px;
+	}
+    
+
+	.header {
+		display: block;
+		color: white;
+		padding-top: 90px;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 20px;
+    position: relative;
+    left:120px;
+    bottom: 50px;
+	}
+	.header div{
+  border-top: 1px solid grey;
+  padding: 10px 0;
+
+  display: block;
+  cursor: pointer;
+  margin-right: 0;
+}
+.header div span {
+	color: orange;
+}
+#toggle:checked + .header{
+  display: none;
+}
+.header div:hover{
+	color: orange;
+}
+
+/* ----------------------------------------- */
+
+.header div a{
+	text-decoration: none;
+	color: white;
+}
+
+.header div a:hover{
+	color: orange;
+}
+
+/* --------------------------------------------- */
+/*navbar mobile adapt end*/

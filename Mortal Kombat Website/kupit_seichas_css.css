@@ -1,0 +1,634 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    height: 125px;
+    padding-top: 24px;
+}
+
+header .logo{
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.linear-section{
+    display: block;
+	bottom: 25px;
+    left: 5px;
+    position: relative;
+    height: 0px;
+    z-index: 1;
+}
+
+/* первый секшн */
+.first{
+background-image: url("photoes/mid-bg.jpg");
+background-position: top;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+/* padding-top: 500px; */
+padding-bottom: 40px;
+display: flex;
+flex-direction: column;
+}
+
+.text {
+    /* padding-top: 20px; */
+	display: flex;
+    justify-content: center;
+}
+.text img {
+	position: relative;
+	top: 42px;
+}
+.text h3 {
+    font-size: 40px;
+    color:white;
+	margin-top: 37px;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.flip1 {
+	-webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.hd{
+    padding-bottom: 10px;
+}
+
+
+.buttons{
+    position: absolute;
+    z-index: 10;
+    left: 40%;
+    top: 100px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttons button{
+    margin-right: 30px;
+    width: 150px;
+    height: 65px;
+    background-color: black;
+    border:1px solid #FEAD15;
+    color: white;
+    animation-name: smalling , smalling;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+    /* animation-name: pause;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; */
+}
+
+.buttons button:hover{
+    background-color: rgba(190,123,2,.4);
+}
+
+@media (max-width:767px){
+    .text h3 {
+        font-size: 20px;
+    }
+
+    .buttons{
+        left: 27%;
+        top: 80px;
+    }
+}
+
+
+@keyframes smalling{
+   0%{
+    width: 150px;
+    height: 65px;
+   }
+   
+   100%{
+    width: 140px;
+    height: 55px;
+   }
+}
+
+.box{
+    margin-top: 130px;
+    padding-top: 10px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+
+.box .cont1{
+    color: white;
+}
+
+.box .cont1 .outer{
+	border: 2px solid #645a56;
+    background: rgba(0,0,0,.4);
+    position: relative;
+}
+
+.box .cont1 .outer .inner{
+    margin: 5px 5px 5px 5px;
+	display: flex;
+    flex-direction: column;
+	border-color: #c1a768;
+	border: 2px solid #73644b;
+    position: relative;
+}
+
+.box .cont1 .outer .inner .top{
+padding: 20px 20px 20px 20px;
+}
+
+
+.box .cont1 .outer .inner .top .platform-1-text .digital{
+   width: 20px;
+   height: 20px;
+   color: white;
+   background-color: #FEAD15;
+   text-align: center;
+   border: none;
+   margin-right: 10px;
+}
+
+.box .cont1 .outer .inner .top .platform-1-text{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40%;
+    margin-bottom: 10px;
+}
+
+
+/* логотипы компаний */
+
+.box .cont1 .outer .inner .top .platforms{
+    margin-bottom: 20px;
+}
+
+
+.box .cont1 .outer .inner .top .platforms button{
+    width: 165px;
+    height: 60px;
+    background-color: #544D4D;
+    border: none;
+    border-radius: 5px;
+}
+
+.box .cont1 .outer .inner .top .platforms button:hover{
+   background-color: #827570;
+   border: 2px solid #885E18;
+}
+
+.box .cont1 .outer .inner .top .platforms button:focus{
+    background-color: #FDA90F;
+}
+
+.box .cont1 .outer .inner .top .platforms button .cls-1{
+    fill: rgb(255, 255, 255);
+}
+
+
+/* издания */
+.box .cont1 .outer .inner .top .fabrics{
+    display: flex;
+    flex-direction: row;
+}
+
+.box .cont1 .outer .inner .top .fabrics button{
+    color: white;
+    font-size: 18px;
+    background-color: #544D4D;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 250px;
+    height: 60px;
+}
+
+.box .cont1 .outer .inner .top .fabrics button:hover{
+    background-color: #827570;
+    border: 2px solid #885E18;
+}
+
+
+.box .cont1 .outer .inner .top .fabrics button:focus{
+    background-color: #FDA90F;
+}
+
+/* нижние элементы */
+ .down .platform-1-text .digital{
+    width: 20px;
+    height: 20px;
+    color: white;
+    background-color: #FEAD15;
+    text-align: center;
+    border: none;
+    margin-right: 10px;
+ }
+ 
+ .down .platform-1-text{
+     display: flex;
+     flex-direction: row;
+     margin-left: 40%;
+     margin-bottom: 10px;
+ }
+
+ .box .shops{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+ .box .shops img{
+    width: 165px;
+    height: 55px;
+    margin: 10px 10px 10px 10px;
+ }
+
+ .show{
+     display: block;
+ }
+
+ .close{
+     display: none;
+ }
+
+
+ @media (max-width:767px){
+    .box{
+        margin-top: 130px;
+        padding-top: 10px;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 40px;
+    }
+
+    .box .cont1 .outer .inner .top .platform-1-text , .down .platform-1-text{
+        margin-left: 27%;
+    }
+
+    .box .cont1 .outer .inner .top .platforms button{
+        width: 165px;
+        height: 50px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+
+    .box .cont1 .outer .inner .top .fabrics button{
+     font-size: smaller;
+    }
+ }
+
+
+
+ /* 2 секшн ксс */
+.words-4{
+	position: relative;
+    padding: 30px 0;
+    background: linear-gradient(
+90deg
+,#7a3d01 10%,#d89704 48%,#d89704 52%,#7a3d01 90%);
+
+border-bottom:4px solid #C1A768 ;
+}
+
+.words-4 h3{
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 0.1rem;
+	font-size: 3rem;
+}
+
+/* карточки */
+  
+.cards{
+	background-image: url(https://cdn-prod.mortalkombat.com/aftermath/global/compare-extended-bg-m.jpg);
+	background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.cards .elements{
+	margin-left: 300px;
+	padding: 90px 30px 90px 30px;
+	display: flex;
+	flex-direction: row;
+}
+
+.cards .elements .card{
+	color: white;
+	padding: 15px 15px 15px 15px;
+	background: rgba(0,0,0,.4);
+	margin-right: 20px; 
+	border: 2px solid #C1A768;
+	min-width: 250px;
+	width: 250px;
+	height: 525px;
+	display: flex;
+	flex-direction: column;
+}
+
+.cards .elements .card #photoes{
+	position: relative;
+	bottom: 50px;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.cards .elements .card #photoes:hover{
+	animation-name: move;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+	animation-fill-mode:forwards;
+}
+
+/* анимация */
+
+@keyframes move{
+	0%{
+		bottom: 50px;
+	}
+	100%{
+		box-shadow:0 0 10px #FEAD15;
+		bottom: 80px;
+	}
+}
+
+@media (max-width: 767px){
+	.cards .elements{
+		margin-left: 50px;
+		overflow-y: auto;
+	}
+}
+
+
+.cards .elements .card #liner{
+	margin-bottom: 20px;
+}
+
+.cards .elements .card span{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.cards .elements .card .notes {
+	width: 80%;
+}
+
+.cards .elements .card .notes p{
+  padding-left: 10px;
+}
+
+.cards .elements .card button{
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10%;
+	height: 35px;
+	border: none;
+	color: white;
+background-color: #FEAD15;
+width: max-content;
+}
+
+.cards .elements .card button:focus{
+	outline: none;
+}
+
+
+/* третия секшон */
+.third-section{
+    background-image: url(https://cdn-prod.mortalkombat.com/ultimate/media/media-bg-m.jpg);
+    background-position: top;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    padding: 25px 0;
+}
+
+
+
+
+  .cont4{
+    margin-top: 10%;
+	margin-left: 15%;
+	margin-bottom: 100px;
+    width: 1200px;
+	border-color: rgba(239,235,222,.6);
+}
+
+  .cont4 .outer{
+	border: 2px solid #645a56;
+    background: rgba(0,0,0,.4);
+    position: relative;
+	height: 495px;
+}
+
+  .cont4 .outer .inner{
+      margin: 5px 5px 5px 5px;
+	display: flex;
+	border-color: #c1a768;
+	border: 2px solid #73644b;
+    position: relative;
+	height: 480px;
+}
+
+  .cont4 .metta{
+	padding: 120px 18px 52px 38px;
+    width: 70%;
+	margin-left: 20%;
+}
+
+  .cont4 .metta h2{
+	font-family: Roboto Condensed,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.1;
+	color: #fda90f;
+    margin-bottom: 0;
+}
+
+  .cont4 .metta p{
+	font-size: 1.275rem;
+	width: 100%;
+    color: #d7d7d7;
+    line-height: 1.1;
+    margin-bottom: 0;
+    text-shadow: 0 0 6px #000;
+    padding-right: 100px;
+}
+
+  .cont4 .metta img{
+	margin: 12px 0;
+	width: 190px;
+    height: auto;
+}
+
+
+  .cont4 .images{
+	position: relative;
+	left: 30px;
+	bottom:105px;
+	width: 20%;
+    z-index: 2;
+}
+
+
+  .cont4 .images .zab{
+	width: 1050px;
+}
+
+@media(max-width: 767px) {
+    .cont4{
+        
+        margin-left: 2%;
+    }
+
+    .cont4 .metta h2{
+        font-size: 10px;
+      }
+      
+      .cont4 .metta p{
+        font-size: 7px;
+          width: 100%;
+          height: auto;
+          font-size:smaller;
+      }
+
+     .cont4 .outer{
+        width: 615px;
+        height: 180px;
+	}
+	
+	 .cont4 .outer .inner{
+        width: 600px;
+        height: 165px;
+	}
+	
+	 .cont4 .metta{
+		position: absolute;
+		z-index: 10;
+		padding: 20px;
+		width: 100%;
+		margin-left: 30%;
+	}
+
+     .cont4 .images .zab{
+        right: 20px;
+        top:30px;
+		position: relative;
+		width: 430px;
+	}
+
+}
+
+
+/* футре ксс часть */
+.footer {
+	background-color: black;
+	height: 480px;
+}
+.footer img {
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+.row1 img {
+margin-top: 50px;
+}
+.row3 img {
+	position: relative;
+	left:1200px;
+	bottom: 120px;
+}
+.footer p {
+	font-size: 10px;
+	color: white;
+	margin-right: 500px;
+	margin-left: 300px;
+	text-align: left;
+}
+.footer .links a {
+	display: inline;
+    font-size: .625rem;
+    text-transform: uppercase;
+    margin: 0 10px;
+    color: grey;
+    opacity: .7;
+    white-space: nowrap;
+    color: grey;
+    text-decoration: none;
+    background-color: transparent;
+    position: relative;
+    left:400px;
+    bottom: 80px;
+}
+.footer .links a:hover {
+	color: white;
+}
+/*Footer css end*/
+
+/*Footer mobile adaptation start*/
+@media  (max-width: 767px) {
+	body {
+		width: auto;
+	}
+	.footer {
+background-color: black;
+	height: 800px;
+	}
+	.footer p {
+		margin-left: 10px;
+		margin-right: 10px;
+		text-align: center;
+	}
+	.footer .row3 img {
+		position: relative;
+		left:300px;
+		top: 10px;
+	}
+
+	.footer .links {
+		display: inline-block;
+		position: relative;
+		right: 400px;
+		top: 120px;
+		text-align: center;
+	}
+}
+/*Footer mobile adaptation end*/
+
+@media  (max-width: 767px) {
+	
+video {
+	display: none;
+}
+.slide1  {
+	background-size: contain;
+	width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
+.scorpion {
+	display: none;
+}
+#first1{
+	margin: 0;
+}
+}
